@@ -1,0 +1,5 @@
+export const showlist = () => import("./showlist/showlist.vue")
+export const home = () => import("./home.vue")
+export const error404 = () => import("./error404.vue")
+export const main = () => import("./main.vue")
+export const login = () => import("./login.vue")

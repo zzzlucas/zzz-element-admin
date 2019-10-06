@@ -1,0 +1,21 @@
+#loadingbar{
+    height: 3px;
+    background: blue;
+    width: 0;
+    animation: progress linear 1s infinite;
+    position: fixed;
+    display: none;
+    top: 0;
+    z-index: 9999;
+    left: 0;
+}
+
+@keyframes progress{
+    from{
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
